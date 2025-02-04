@@ -159,8 +159,8 @@
 \renewcommand*\tablename{Table}
 }
 \AtBeginDocument{%
-\renewcommand*\listfigurename{List of Figures}
-\renewcommand*\listtablename{List of Tables}
+\renewcommand*\listfigurename{\section*{List of Figures}}  % Remove numbering
+\renewcommand*\listtablename{\section*{List of Tables}}  % Remove numbering
 }
 \newcounter{pandoccrossref@subfigures@footnote@counter}
 \newenvironment{pandoccrossrefsubfigures}{%

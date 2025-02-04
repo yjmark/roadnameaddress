@@ -1,3 +1,4 @@
+\section*{List of Tables} 
 \listoftables
 
 \newpage

@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
     line-height: 30px;
     font-size: 18px;
-    padding-left: 350px;
+    padding-left: 500px;
     padding-right: 50px;
     color: #111;
 }
@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    padding-top: 200px;
+    padding-top: 100px;
     line-height: 50px;
 }
 h2 {
@@ -29,6 +29,7 @@ h4 {
 }
 p {
     text-align: justify;
+    text-indent: 1em; /* Adjust the value as needed */
 }
 p a {
     word-wrap: break-word;
@@ -44,7 +45,7 @@ blockquote {
 }
 
 ::selection {
-    background-color: #E4E4E4;
+    background-color: #B5D5FB;
 }
 
 table {
@@ -85,8 +86,8 @@ p span.removed {
     top: 0;
     overflow-y: scroll;
     height: 100%;
-    background: #fafafa;
-    max-width: 300px;
+    background: #ddd;
+    max-width: 450px;
     font-family: Arial;
     font-size: 15px;
     line-height: 30px;
@@ -117,7 +118,7 @@ p span.removed {
     overflow: hidden;
 }
 #TOC ul li a:hover {
-    color: #008cff;
+    color: #003764;
 }
 
 .figure {
@@ -129,5 +130,9 @@ p span.removed {
 }
 .figure img {
       width: 100%;
+}
+.center {
+    display: block;
+    margin: auto;
 }
 </style>

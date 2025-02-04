@@ -1,11 +1,22 @@
-# Appendix 1: Some extra stuff {.unnumbered}
+# 부록 {.unnumbered}
 
 <!-- 
 This could be a list of papers by the author for example 
 -->
 
-Add appendix 1 here. Vivamus hendrerit rhoncus interdum. Sed ullamcorper et augue at porta. Suspendisse facilisis imperdiet urna, eu pellentesque purus suscipit in. Integer dignissim mattis ex aliquam blandit. Curabitur lobortis quam varius turpis ultrices egestas.
+<인터뷰 질문>
 
+1. 도로명주소 정책의 정착에 작용하는 요인 중 제도 자체가 지니는 요인에는 어떤 것들이 있다고 생각하시는지 의견이 있으시면 적어 주십시오.
 
+2. 도로명주소 정책의 정착에 작용하는 요인 중 기술적인 요인에는 어떤 것들이 있다고 생각하시는지 의견이 있으시면 적어 주십시오.
 
+3. 도로명주소 정책의 정착에 작용하는 요인 중 시기적인 요인에는 어떤 것들이 있다고 생각하시는지 의견이 있으시면 적어 주십시오.
 
+4. 도로명주소 정책의 정착에 작용하는 요인 중 민관 협력 측면의 요인에는 어떤 것들이 있다고 생각하시는지 의견이 있으시면 적어 주십시오.
+
+5. 도로명주소의 정착을 위해 정부가 민간과 협력을 더 진척시켜야 하는 부분이 있는지 궁금합니다.
+
+6. 그밖에 000님께서 그간 도로명주소 업무를 추진하시면서 생각하셨던 도로명주소 정착에 작용하는 요인들 또는 그 요인들 간의 선후관계가 달라지면 도로명주소 정책이 지금보다 좀더 빨리 정착되었을 수도 있었다고 생각하셨던 부분을 말씀해 주시면 감사하겠습니다.
+
+7. 참고 목적으로 주소 정책 분야 종사 연도, 기간, 당시 직급, 소속기관,
+부서(과)를 적어 주십시오.
