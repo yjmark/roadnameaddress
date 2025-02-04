@@ -83,9 +83,24 @@
                                                 margin: 0 auto;
                                                 line-height: 30px;
                                                 font-size: 18px;
-                                                padding-left: 500px;
+                                                padding-left: 550px;
                                                 padding-right: 50px;
                                                 color: #111;
+                                            }
+
+                                            /* Adjust body padding on smaller screens */
+                                            @media (max-width: 1200px) {
+                                                body {
+                                                    padding-left: 350px; /* Reduce left padding */
+                                                    padding-right: 50px;
+                                                }
+                                            }
+
+                                            @media (max-width: 768px) {
+                                                body {
+                                                    padding-left: 20px; /* Further reduce for mobile */
+                                                    padding-right: 20px;
+                                                }
                                             }
 
                                             h1, h2, h3, h4, h5, h6 {
@@ -93,17 +108,21 @@
                                             }
 
                                             h1 {
-                                                padding-top: 100px;
+                                                padding-top: 80px;
                                                 line-height: 50px;
+                                                font-size: 2em;
                                             }
                                             h2 {
                                                 padding-top: 30px;
+                                                font-size: 1.8em;
                                             }
                                             h3 {
                                                 padding-top: 20px;
+                                                font-size: 1.5em;
                                             }
                                             h4 {
                                                 padding-top: 10px;
+                                                font-size: 1.2em;
                                             }
                                             p {
                                                 text-align: justify;
@@ -155,9 +174,10 @@
                                             }
 
                                             #title-page {
-                                                padding: 80px 0;
+                                                padding: 20px 0;
                                             }
 
+                                            /* Responsive Table of Contents */
                                             #TOC {
                                                 position: fixed;
                                                 left: 0;
@@ -169,6 +189,7 @@
                                                 font-family: Arial;
                                                 font-size: 15px;
                                                 line-height: 30px;
+                                                transition: all 0.3s ease-in-out;
                                             }
                                             ::-webkit-scrollbar {
                                                 width: 8px;
@@ -199,7 +220,28 @@
                                                 color: #003764;
                                             }
 
+                                            /* Make TOC smaller on tablets */
+                                            @media (max-width: 1200px) {
+                                                #TOC {
+                                                    max-width: 300px;
+                                                    font-size: 14px;
+                                                }
+                                            }
+
+                                            /* Hide TOC on small screens and add a toggle button */
+                                            @media (max-width: 768px) {
+                                                #TOC {
+                                                    max-width: 100%;
+                                                    height: auto;
+                                                    position: relative;
+                                                    overflow-y: visible;
+                                                }
+                                            }
+
                                             .figure {
+                                                width: 100%;
+                                                max-width: 100%; /* Ensure images do not overflow */
+                                                height: auto;
                                                 text-align: center;
                                             }
                                             .figure p {
